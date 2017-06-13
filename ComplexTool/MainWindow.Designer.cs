@@ -62,8 +62,8 @@
             this.btnToCal2 = new System.Windows.Forms.Button();
             this.btnToCal1 = new System.Windows.Forms.Button();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.txtDecimal = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -100,6 +100,7 @@
             // 
             // txtCvtImaginary
             // 
+            this.txtCvtImaginary.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCvtImaginary.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCvtImaginary.Location = new System.Drawing.Point(250, 20);
             this.txtCvtImaginary.Name = "txtCvtImaginary";
@@ -111,6 +112,7 @@
             // 
             // txtCvtReal
             // 
+            this.txtCvtReal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCvtReal.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCvtReal.Location = new System.Drawing.Point(8, 20);
             this.txtCvtReal.Name = "txtCvtReal";
@@ -145,6 +147,7 @@
             // 
             // txtCvtDegree
             // 
+            this.txtCvtDegree.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCvtDegree.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCvtDegree.Location = new System.Drawing.Point(248, 20);
             this.txtCvtDegree.Name = "txtCvtDegree";
@@ -156,6 +159,7 @@
             // 
             // txtCvtModule
             // 
+            this.txtCvtModule.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCvtModule.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCvtModule.Location = new System.Drawing.Point(8, 20);
             this.txtCvtModule.Name = "txtCvtModule";
@@ -210,6 +214,7 @@
             // 
             // txtCalImaginary2
             // 
+            this.txtCalImaginary2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCalImaginary2.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCalImaginary2.Location = new System.Drawing.Point(250, 20);
             this.txtCalImaginary2.Name = "txtCalImaginary2";
@@ -221,6 +226,7 @@
             // 
             // txtCalReal2
             // 
+            this.txtCalReal2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCalReal2.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCalReal2.Location = new System.Drawing.Point(8, 20);
             this.txtCalReal2.Name = "txtCalReal2";
@@ -265,6 +271,7 @@
             // 
             // txtCalImaginary1
             // 
+            this.txtCalImaginary1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCalImaginary1.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCalImaginary1.Location = new System.Drawing.Point(250, 20);
             this.txtCalImaginary1.Name = "txtCalImaginary1";
@@ -276,6 +283,7 @@
             // 
             // txtCalReal1
             // 
+            this.txtCalReal1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCalReal1.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCalReal1.Location = new System.Drawing.Point(8, 20);
             this.txtCalReal1.Name = "txtCalReal1";
@@ -308,6 +316,7 @@
             // txtCalRes
             // 
             this.txtCalRes.BackColor = System.Drawing.Color.White;
+            this.txtCalRes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCalRes.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCalRes.Location = new System.Drawing.Point(7, 20);
             this.txtCalRes.Name = "txtCalRes";
@@ -333,6 +342,7 @@
             // 
             // btnToCvt
             // 
+            this.btnToCvt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnToCvt.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnToCvt.Location = new System.Drawing.Point(502, 20);
             this.btnToCvt.Name = "btnToCvt";
@@ -358,10 +368,11 @@
             // rbDivide
             // 
             this.rbDivide.AutoSize = true;
+            this.rbDivide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rbDivide.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbDivide.Location = new System.Drawing.Point(427, 20);
             this.rbDivide.Name = "rbDivide";
-            this.rbDivide.Size = new System.Drawing.Size(48, 36);
+            this.rbDivide.Size = new System.Drawing.Size(47, 36);
             this.rbDivide.TabIndex = 3;
             this.rbDivide.Text = "/";
             this.rbDivide.UseVisualStyleBackColor = true;
@@ -370,10 +381,11 @@
             // rbMultiply
             // 
             this.rbMultiply.AutoSize = true;
+            this.rbMultiply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rbMultiply.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbMultiply.Location = new System.Drawing.Point(295, 20);
             this.rbMultiply.Name = "rbMultiply";
-            this.rbMultiply.Size = new System.Drawing.Size(48, 36);
+            this.rbMultiply.Size = new System.Drawing.Size(47, 36);
             this.rbMultiply.TabIndex = 2;
             this.rbMultiply.Text = "*";
             this.rbMultiply.UseVisualStyleBackColor = true;
@@ -382,10 +394,11 @@
             // rbMinus
             // 
             this.rbMinus.AutoSize = true;
+            this.rbMinus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rbMinus.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbMinus.Location = new System.Drawing.Point(159, 20);
             this.rbMinus.Name = "rbMinus";
-            this.rbMinus.Size = new System.Drawing.Size(48, 36);
+            this.rbMinus.Size = new System.Drawing.Size(47, 36);
             this.rbMinus.TabIndex = 1;
             this.rbMinus.Text = "-";
             this.rbMinus.UseVisualStyleBackColor = true;
@@ -395,10 +408,11 @@
             // 
             this.rbPlus.AutoSize = true;
             this.rbPlus.Checked = true;
+            this.rbPlus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rbPlus.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbPlus.Location = new System.Drawing.Point(7, 20);
             this.rbPlus.Name = "rbPlus";
-            this.rbPlus.Size = new System.Drawing.Size(48, 36);
+            this.rbPlus.Size = new System.Drawing.Size(47, 36);
             this.rbPlus.TabIndex = 0;
             this.rbPlus.TabStop = true;
             this.rbPlus.Text = "+";
@@ -420,6 +434,7 @@
             // 
             // btnToCal2
             // 
+            this.btnToCal2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnToCal2.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnToCal2.Location = new System.Drawing.Point(502, 106);
             this.btnToCal2.Name = "btnToCal2";
@@ -431,6 +446,7 @@
             // 
             // btnToCal1
             // 
+            this.btnToCal1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnToCal1.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnToCal1.Location = new System.Drawing.Point(502, 20);
             this.btnToCal1.Name = "btnToCal1";
@@ -451,6 +467,18 @@
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "Option";
             // 
+            // txtDecimal
+            // 
+            this.txtDecimal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtDecimal.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDecimal.Location = new System.Drawing.Point(256, 20);
+            this.txtDecimal.Name = "txtDecimal";
+            this.txtDecimal.Size = new System.Drawing.Size(79, 39);
+            this.txtDecimal.TabIndex = 7;
+            this.txtDecimal.Text = "5";
+            this.txtDecimal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtDecimal.TextChanged += new System.EventHandler(this.DecimalPlacesChanged);
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -461,21 +489,11 @@
             this.label9.TabIndex = 0;
             this.label9.Text = "Decimal Places:";
             // 
-            // txtDecimal
-            // 
-            this.txtDecimal.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDecimal.Location = new System.Drawing.Point(256, 20);
-            this.txtDecimal.Name = "txtDecimal";
-            this.txtDecimal.Size = new System.Drawing.Size(79, 39);
-            this.txtDecimal.TabIndex = 7;
-            this.txtDecimal.Text = "5";
-            this.txtDecimal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtDecimal.TextChanged += new System.EventHandler(this.DecimalPlacesChanged);
-            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(615, 622);
             this.Controls.Add(this.groupBox9);
             this.Controls.Add(this.groupBox8);
@@ -483,7 +501,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MainWindow";
-            this.Text = "复数工具";
+            this.Text = "ComplexTool";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
