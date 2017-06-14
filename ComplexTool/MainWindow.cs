@@ -5,9 +5,9 @@ namespace ComplexTool
 {
     public partial class MainWindow : Form
     {
-        private Complex _cvtComplex;
-        private Complex _calComplex1;
-        private Complex _calComplex2;
+        private readonly Complex _cvtComplex;
+        private readonly Complex _calComplex1;
+        private readonly Complex _calComplex2;
         private Complex _resComplex;
         private bool _changedByHuman;
         public MainWindow()

@@ -195,7 +195,7 @@
             this.groupBox3.Controls.Add(this.txtCalImaginary2);
             this.groupBox3.Controls.Add(this.txtCalReal2);
             this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Location = new System.Drawing.Point(5, 248);
+            this.groupBox3.Location = new System.Drawing.Point(6, 171);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(490, 71);
             this.groupBox3.TabIndex = 16;
@@ -335,7 +335,7 @@
             this.groupBox6.Controls.Add(this.groupBox5);
             this.groupBox6.Location = new System.Drawing.Point(12, 12);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(591, 325);
+            this.groupBox6.Size = new System.Drawing.Size(599, 251);
             this.groupBox6.TabIndex = 19;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Calculator";
@@ -343,12 +343,12 @@
             // btnToCvt
             // 
             this.btnToCvt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnToCvt.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnToCvt.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnToCvt.Location = new System.Drawing.Point(502, 20);
             this.btnToCvt.Name = "btnToCvt";
-            this.btnToCvt.Size = new System.Drawing.Size(83, 299);
+            this.btnToCvt.Size = new System.Drawing.Size(89, 68);
             this.btnToCvt.TabIndex = 18;
-            this.btnToCvt.Text = "↓";
+            this.btnToCvt.Text = "Copy To Converter";
             this.btnToCvt.UseVisualStyleBackColor = true;
             this.btnToCvt.Click += new System.EventHandler(this.ToCvt);
             // 
@@ -358,9 +358,9 @@
             this.groupBox7.Controls.Add(this.rbMultiply);
             this.groupBox7.Controls.Add(this.rbMinus);
             this.groupBox7.Controls.Add(this.rbPlus);
-            this.groupBox7.Location = new System.Drawing.Point(6, 171);
+            this.groupBox7.Location = new System.Drawing.Point(502, 94);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(490, 71);
+            this.groupBox7.Size = new System.Drawing.Size(89, 148);
             this.groupBox7.TabIndex = 17;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Operator";
@@ -370,7 +370,7 @@
             this.rbDivide.AutoSize = true;
             this.rbDivide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rbDivide.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbDivide.Location = new System.Drawing.Point(427, 20);
+            this.rbDivide.Location = new System.Drawing.Point(7, 107);
             this.rbDivide.Name = "rbDivide";
             this.rbDivide.Size = new System.Drawing.Size(47, 36);
             this.rbDivide.TabIndex = 3;
@@ -383,7 +383,7 @@
             this.rbMultiply.AutoSize = true;
             this.rbMultiply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rbMultiply.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbMultiply.Location = new System.Drawing.Point(295, 20);
+            this.rbMultiply.Location = new System.Drawing.Point(7, 75);
             this.rbMultiply.Name = "rbMultiply";
             this.rbMultiply.Size = new System.Drawing.Size(47, 36);
             this.rbMultiply.TabIndex = 2;
@@ -396,7 +396,7 @@
             this.rbMinus.AutoSize = true;
             this.rbMinus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rbMinus.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbMinus.Location = new System.Drawing.Point(159, 20);
+            this.rbMinus.Location = new System.Drawing.Point(7, 45);
             this.rbMinus.Name = "rbMinus";
             this.rbMinus.Size = new System.Drawing.Size(47, 36);
             this.rbMinus.TabIndex = 1;
@@ -410,7 +410,7 @@
             this.rbPlus.Checked = true;
             this.rbPlus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rbPlus.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbPlus.Location = new System.Drawing.Point(7, 20);
+            this.rbPlus.Location = new System.Drawing.Point(7, 13);
             this.rbPlus.Name = "rbPlus";
             this.rbPlus.Size = new System.Drawing.Size(47, 36);
             this.rbPlus.TabIndex = 0;
@@ -425,9 +425,9 @@
             this.groupBox8.Controls.Add(this.btnToCal1);
             this.groupBox8.Controls.Add(this.groupBox1);
             this.groupBox8.Controls.Add(this.groupBox2);
-            this.groupBox8.Location = new System.Drawing.Point(12, 343);
+            this.groupBox8.Location = new System.Drawing.Point(12, 269);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(591, 193);
+            this.groupBox8.Size = new System.Drawing.Size(599, 193);
             this.groupBox8.TabIndex = 20;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Converter";
@@ -435,24 +435,24 @@
             // btnToCal2
             // 
             this.btnToCal2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnToCal2.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnToCal2.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnToCal2.Location = new System.Drawing.Point(502, 106);
             this.btnToCal2.Name = "btnToCal2";
-            this.btnToCal2.Size = new System.Drawing.Size(83, 80);
+            this.btnToCal2.Size = new System.Drawing.Size(89, 80);
             this.btnToCal2.TabIndex = 20;
-            this.btnToCal2.Text = "↑";
+            this.btnToCal2.Text = "Copy To Complex2";
             this.btnToCal2.UseVisualStyleBackColor = true;
             this.btnToCal2.Click += new System.EventHandler(this.ToCal2);
             // 
             // btnToCal1
             // 
             this.btnToCal1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnToCal1.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnToCal1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnToCal1.Location = new System.Drawing.Point(502, 20);
             this.btnToCal1.Name = "btnToCal1";
-            this.btnToCal1.Size = new System.Drawing.Size(83, 80);
+            this.btnToCal1.Size = new System.Drawing.Size(89, 80);
             this.btnToCal1.TabIndex = 19;
-            this.btnToCal1.Text = "↑";
+            this.btnToCal1.Text = "Copy To Complex1";
             this.btnToCal1.UseVisualStyleBackColor = true;
             this.btnToCal1.Click += new System.EventHandler(this.ToCal1);
             // 
@@ -460,9 +460,9 @@
             // 
             this.groupBox9.Controls.Add(this.txtDecimal);
             this.groupBox9.Controls.Add(this.label9);
-            this.groupBox9.Location = new System.Drawing.Point(12, 542);
+            this.groupBox9.Location = new System.Drawing.Point(12, 468);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(591, 69);
+            this.groupBox9.Size = new System.Drawing.Size(348, 69);
             this.groupBox9.TabIndex = 21;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "Option";
@@ -494,10 +494,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(615, 622);
+            this.ClientSize = new System.Drawing.Size(624, 549);
             this.Controls.Add(this.groupBox9);
             this.Controls.Add(this.groupBox8);
             this.Controls.Add(this.groupBox6);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MainWindow";
